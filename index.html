@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/client.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <section class="content">
+      <h2>Welcome!</h2>
+      <h1>CANADIAN CURRENCY CONVERTER</h1>
+      <p>Want to see how much a Canadian Dollar is worth around the continent?</p>
+      <p class="smallp">Please enter a Canadian monetary value below to convert!</p>
+      <form action="">
+        <fieldset>
+          <legend><strong>Canadian Currency Converter</strong></legend>
+          <div>
+            <label for="conversion"><span>*</span> Conversion</label>
+            <select name="conversion" id="conversion">
+              <option value="">Please choose a currency</option>
+              <option value="aruban">Aruban Florin</option>
+              <option value="bahamian">Bahamian Dollar</option>
+              <option value="barbadian">Barbadian Dollar</option>
+              <option value="belize">Belize Dollar</option>
+              <option value="bermudian">Bermudian Dollar</option>
+              <option value="cayman">Cayman Islands Dollar</option>
+              <option value="colombian">Colombian Peso</option>
+              <option value="costa">Costa Rican Colon</option>
+              <option value="cuban">Cuban Peso</option>
+              <option value="danish">Danish Krone</option>
+              <option value="dominican">Dominican Peso</option>
+              <option value="caribbean">East Caribbean Dollar</option>
+              <option value="euro">French Euro</option>
+              <option value="guatemalan">Guatemalan Quetzal</option>
+              <option value="haitian">Haitian Gourde</option>
+              <option value="honduran">Honduran Lempira</option>
+              <option value="jamaican">Jamaican Dollar</option>
+              <option value="mexican">Mexican peso</option>
+              <option value="netherlands">Netherlands Antillean Guilder</option>
+              <option value="nicaraguan">Nicaraguan Cordoba</option>
+              <option value="panamanian">Panamanian Bolboa</option>
+              <option value="sint">Sint Eustatius</option>
+              <option value="usa">US Dollar</option>
+            </select>
+          </div>
+          <div>
+            <label for="amount"> <span>*</span> Currency amount</label>
+            <input type="number" name="amount" id="amount" step="0.1" required>
+          </div>
+        </fieldset>
+        <button type="submit">Convert</button>
+      </form>
+
+      <section>
+        <p class="output">$$$</p>
+      </section>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

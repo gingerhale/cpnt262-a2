@@ -1,0 +1,110 @@
+body {
+  /* color */
+  color: #edf5e1;
+
+  /* background styles */
+  background-image: url(/assets/images/money-bills.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* font styles */
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.4;
+
+  /* box model */
+  margin: 0;
+}
+
+main {
+  /* box model */
+  margin: auto;
+
+  /* flexbox */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
+  /* page dimensions */
+  max-width: 50ch;
+  min-height: 100vh;
+}
+
+.content {
+  background-color: #05386b;
+
+  padding: 1rem;
+}
+
+h1,
+h2,
+p {
+  /* boxmodel */
+  margin: 0;
+  padding: .5rem;
+
+  text-align: center;
+}
+
+p {
+  padding-bottom: 0.5rem;
+}
+
+span {
+  color: red;
+}
+
+.smallp {
+  font-size: 20px;
+
+  padding-top: 1rem;
+}
+
+input,
+select {
+  font-size: 20px;
+}
+
+fieldset {
+  border: 2px solid #edf5e1;
+  border-radius: 5px;
+
+}
+
+
+button {
+  /* colors */
+  background-color: #edf5e1;
+  color: #05386b;
+
+  /* font */
+  font-size: 20px;
+
+  /* box model */
+  display: block;
+  padding: 12px 26px;
+  margin: 1rem auto;
+
+  cursor: pointer;
+  border: 2px solid #edf5e1;
+  border-radius: 5px;
+}
+
+
+.output {
+  /* color */
+  background-color: #edf5e1;
+  color: #c3073f;
+
+/* box model */
+  margin: 0 20px 0 20px;
+  display: block;
+
+  /* border styles */
+  border-radius: 5px;
+  border: 2px solid #c3073f;
+}
