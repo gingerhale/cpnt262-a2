@@ -3,7 +3,7 @@ body {
   color: #edf5e1;
 
   /* background styles */
-  background-image: url('../images/money-bills.jpg');;
+  background: url('../images/money-bills.jpg');;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
